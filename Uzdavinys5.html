@@ -5,36 +5,83 @@
     
     <title>Uzdavinys5</title>
     <style>
-        div .bl1.bl2.bl3 
+        .a.b.c.d.e.f.g.h.i 
         {
-            display: block
+            font-size: 2.4em; 
+            border-collapse: collapse;           
         }
 
-        div .a.b.d.e 
-        {
-            height: 1em
-        } 
-        div .a 
-        {
-            width: 6em
-        }
-        div .b 
-        {
-            width: 2em
+        div 
+        {            
+                              
+            
         }
 
+        div > div
+        {
+            border: solid 1px black;
+            display: inline-block;
+            
+            
+        }
+        div > div > div
+        {
+            display: block;
+            border: solid 1px black;
+            background-color: seagreen;
+        }
+       
+        .a.b.d.e
+        {
+            position: relative;
+            padding-bottom: 3em;
+        }
+       
+        .a 
+        {
+            padding-right: 12em;
+            background-color: springgreen;
+        }
+        .b 
+        {
+            padding-right: 4em;
+            background-color: springgreen;
+        }
+
+        .c
+        {
+            padding-bottom: auto;
+            position: relative;
+            display: inline-block;
+        }
+        .d 
+        {
+            position: ;
+            float: right;
+        }
+        
     </style>
     
 </head>
 <body>
-    <div class="bl1">
-        <div class="a">A</div> <div>B</div>
+    <div>
+        <div class="a">A</div> 
+        <div class="b">B</div>
     </div>
-    <div class="bl2">
-
+    <div>
+        <div class="c">C</div> 
+        <div>
+            <div class="d">D</div>
+            <div class="e">E</div>
+            <div class="g">G</div>
+        </div>
+    <div>
+            <div class="f">F</div>
+            <div class="h">H</div>
     </div>
-    <div class="bl3">
-
-    </div>
+    <div>
+        <div class="i">I</div>
+    </div>                        
+                        
 </body>
 </html>
