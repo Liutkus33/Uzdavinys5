@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
-
     <title>Uzdavinys5</title>
     <style>
         body {
             border-collapse: collapse;
-            font-size: 10vh;           
-            
+            font-size: 10vh;                          
         }
+
+        #a, #b, #c, #d, #e, #f, #g, #h, #i {
+            vertical-align: top;
+            margin: 0 0;  
+            padding: 0 0;         
+        }
+
         #a, #b, #d, #e, #i {
-            height: 1.5em;
-                       
+            height: 1.5em;                       
         }
 
         #a {
             width: calc(7.5em - 1.5vh);
             margin-right: 1.5vh
-                    }
-        
-
+        }
 
         #b, #f, #h {
             width: calc(2.5em - 1.5vh);
-                    }
+        }
 
         #c { 
             height: calc(100vh - 3em - 3vh);
@@ -33,16 +34,14 @@
             margin-right: 1.5vh;
             background-color: yellow;               
         }
+
         #f {
             height: calc(3em + 1.5vh);
-        }
-        #i {
-            width: calc(10em - 1.5vh);
-        }
+        }        
         
         #d, #e, #g {
             width: calc(10em - 4.5em - 3vh);
-                    }
+        }
         
         #f, #h {
             background-color: red;
@@ -52,31 +51,26 @@
             overflow: scroll;
         }
 
-        #g, #h {
-            height: calc(100vh - 6em - 6vh)
-        }
-        #a, #b, #c, #d, #e, #f, #g, #h, #i {
-            vertical-align: top;       
-            
-        }
-        div {            
-            display: inline-block; 
-            
+        #i {
+            width: calc(10em - 1.5vh);
+            margin-top: -1vh;
         }
 
-        mid div {            
-            display: inline-block;            
-            
-            
-        }
+        #g, #h {
+            height: calc(100vh - 6em - 6vh)
+        }        
+
+        div, mid div {            
+            display: inline-block;             
+        }                     
+        
         #d, #e, #f {
             margin-bottom: 1.5vh;
         }
 
         div div {
             display: block;            
-            background-color: blue;
-                        
+            background-color: blue;                      
         }
 
         header div {
@@ -87,51 +81,26 @@
             background-color: aquamarine;
         }
 
-        header {margin-bottom: 1.5vh}
-        
-
+        header {
+            margin-bottom: 1.5vh
+        }
     </style>
-
 </head>
-
 <body>
     <header>
         <div id="a">A</div><div id="b">B</div>
     </header>
-    <mid>
-        <div id="c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a turpis faucibus, laoreet velit ut, porta magna. Maecenas consectetur ut lectus non ultricies. Donec vel nisl et tortor consectetur dictum. Maecenas vel dui fringilla lorem tincidunt maximus. Quisque ut tortor volutpat, accumsan massa quis, porta ex. Donec tristique turpis a purus pellentesque vestibulum. In viverra nulla felis, eget mattis felis congue venenatis. Mauris sagittis massa justo. Phasellus nulla nulla, iaculis sit amet mollis eu, lacinia non eros.
-
-Duis molestie justo sed lectus ornare gravida quis in est. Etiam non eros turpis. Donec nec scelerisque mi. Integer in felis risus. Vivamus gravida dolor est, vitae aliquam ipsum malesuada at. Integer euismod purus fringilla, elementum magna et, pellentesque felis. Quisque arcu magna, suscipit ut iaculis eget, suscipit a risus. In hac habitasse platea dictumst. Morbi maximus vehicula nulla, eu finibus erat dignissim quis.
-
-Aenean lacinia elit non finibus ultricies. Donec pulvinar ut erat sed pretium. Curabitur eu nunc ut quam viverra consequat. Integer efficitur venenatis elementum. Nullam ut urna vitae arcu lobortis porttitor vitae ac diam. Vivamus maximus nibh molestie, hendrerit tellus et, porttitor nunc. Mauris imperdiet odio turpis, a varius elit tempor ut. Fusce erat lacus, tempor quis augue vitae, dictum sodales elit.
-
-Donec imperdiet lectus eu nisl viverra malesuada. Phasellus hendrerit dolor est, ac pretium enim rhoncus tincidunt. Donec tincidunt ligula ut odio aliquam placerat malesuada et ante. Donec luctus ex eget pretium aliquam. Integer ac urna fringilla, consequat nunc non, elementum ante. Etiam consequat dictum libero, sed vulputate eros luctus ac. Proin interdum felis quis tortor luctus, ac viverra arcu facilisis.
-
-Nulla mattis felis rutrum odio eleifend, quis elementum arcu lobortis. Nullam molestie vestibulum quam a ultricies. Aenean quis nisl nec augue accumsan pretium. Quisque porttitor, enim et molestie hendrerit, diam turpis sodales tellus, ut convallis metus lectus ac odio. Vestibulum sodales tincidunt purus, id consequat dolor pulvinar euismod. Pellentesque pretium nunc et pulvinar tristique. In et iaculis metus.</div><div style="margin-right: 1.5vh">
-            <div id="d">D</div><div id="e">E</div><div id="g">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a turpis faucibus, laoreet velit ut, porta magna. Maecenas consectetur ut lectus non ultricies. Donec vel nisl et tortor consectetur dictum. Maecenas vel dui fringilla lorem tincidunt maximus. Quisque ut tortor volutpat, accumsan massa quis, porta ex. Donec tristique turpis a purus pellentesque vestibulum. In viverra nulla felis, eget mattis felis congue venenatis. Mauris sagittis massa justo. Phasellus nulla nulla, iaculis sit amet mollis eu, lacinia non eros.
-
-                Duis molestie justo sed lectus ornare gravida quis in est. Etiam non eros turpis. Donec nec scelerisque mi. Integer in felis risus. Vivamus gravida dolor est, vitae aliquam ipsum malesuada at. Integer euismod purus fringilla, elementum magna et, pellentesque felis. Quisque arcu magna, suscipit ut iaculis eget, suscipit a risus. In hac habitasse platea dictumst. Morbi maximus vehicula nulla, eu finibus erat dignissim quis.
-                
-                Aenean lacinia elit non finibus ultricies. Donec pulvinar ut erat sed pretium. Curabitur eu nunc ut quam viverra consequat. Integer efficitur venenatis elementum. Nullam ut urna vitae arcu lobortis porttitor vitae ac diam. Vivamus maximus nibh molestie, hendrerit tellus et, porttitor nunc. Mauris imperdiet odio turpis, a varius elit tempor ut. Fusce erat lacus, tempor quis augue vitae, dictum sodales elit.
-                
-                Donec imperdiet lectus eu nisl viverra malesuada. Phasellus hendrerit dolor est, ac pretium enim rhoncus tincidunt. Donec tincidunt ligula ut odio aliquam placerat malesuada et ante. Donec luctus ex eget pretium aliquam. Integer ac urna fringilla, consequat nunc non, elementum ante. Etiam consequat dictum libero, sed vulputate eros luctus ac. Proin interdum felis quis tortor luctus, ac viverra arcu facilisis.
-                
-                Nulla mattis felis rutrum odio eleifend, quis elementum arcu lobortis. Nullam molestie vestibulum quam a ultricies. Aenean quis nisl nec augue accumsan pretium. Quisque porttitor, enim et molestie hendrerit, diam turpis sodales tellus, ut convallis metus lectus ac odio. Vestibulum sodales tincidunt purus, id consequat dolor pulvinar euismod. Pellentesque pretium nunc et pulvinar tristique. In et iaculis metus.</div>
-        </div><div>
-            <div id="f">F</div><div id="h">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a turpis faucibus, laoreet velit ut, porta magna. Maecenas consectetur ut lectus non ultricies. Donec vel nisl et tortor consectetur dictum. Maecenas vel dui fringilla lorem tincidunt maximus. Quisque ut tortor volutpat, accumsan massa quis, porta ex. Donec tristique turpis a purus pellentesque vestibulum. In viverra nulla felis, eget mattis felis congue venenatis. Mauris sagittis massa justo. Phasellus nulla nulla, iaculis sit amet mollis eu, lacinia non eros.
-
-                Duis molestie justo sed lectus ornare gravida quis in est. Etiam non eros turpis. Donec nec scelerisque mi. Integer in felis risus. Vivamus gravida dolor est, vitae aliquam ipsum malesuada at. Integer euismod purus fringilla, elementum magna et, pellentesque felis. Quisque arcu magna, suscipit ut iaculis eget, suscipit a risus. In hac habitasse platea dictumst. Morbi maximus vehicula nulla, eu finibus erat dignissim quis.
-                
-                Aenean lacinia elit non finibus ultricies. Donec pulvinar ut erat sed pretium. Curabitur eu nunc ut quam viverra consequat. Integer efficitur venenatis elementum. Nullam ut urna vitae arcu lobortis porttitor vitae ac diam. Vivamus maximus nibh molestie, hendrerit tellus et, porttitor nunc. Mauris imperdiet odio turpis, a varius elit tempor ut. Fusce erat lacus, tempor quis augue vitae, dictum sodales elit.
-                
-                Donec imperdiet lectus eu nisl viverra malesuada. Phasellus hendrerit dolor est, ac pretium enim rhoncus tincidunt. Donec tincidunt ligula ut odio aliquam placerat malesuada et ante. Donec luctus ex eget pretium aliquam. Integer ac urna fringilla, consequat nunc non, elementum ante. Etiam consequat dictum libero, sed vulputate eros luctus ac. Proin interdum felis quis tortor luctus, ac viverra arcu facilisis.
-                
-                Nulla mattis felis rutrum odio eleifend, quis elementum arcu lobortis. Nullam molestie vestibulum quam a ultricies. Aenean quis nisl nec augue accumsan pretium. Quisque porttitor, enim et molestie hendrerit, diam turpis sodales tellus, ut convallis metus lectus ac odio. Vestibulum sodales tincidunt purus, id consequat dolor pulvinar euismod. Pellentesque pretium nunc et pulvinar tristique. In et iaculis metus.</div>
-        </div>        
-    </mid>
-    <footer>
-        <div id="i">I</div>
-    </footer>
+    <mid><div id="c">C Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. Maecenas consectetur ut lectus 
+        non ultricies. Donec vel nisl et tortor consectetur dictum.
+    </div><div style="margin-right: 1.5vh"><div id="d">D</div><div id="e">E
+        </div><div id="g">G Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit. Maecenas consectetur ut lectus 
+                non ultricies. Donec vel nisl et tortor consectetur dictum</div></div><div><div id="f">F                    
+                </div><div id="h">H Lorem ipsum dolor sit 
+                    amet, consectetur adipiscing elit. Maecenas consectetur ut lectus 
+                        non ultricies. Donec vel nisl et tortor consectetur dictum</div>
+                    </div></mid><footer><div id="i">I</div></footer>
 </body>
 
 </html>
