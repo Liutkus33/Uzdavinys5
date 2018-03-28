@@ -8,58 +8,80 @@
     <style>
         body {
             border-collapse: collapse;
-            font-size: 10vh;
+            font-size: 10vh;           
             
         }
         #a, #b, #d, #e, #i {
-            height: 1em;           
+            height: 1.5em;
+                       
         }
 
         #a {
-            width: 6em;
+            width: calc(7.5em - 1.5vh);
+            margin-right: 1.5vh
                     }
+        
+
 
         #b, #f, #h {
-            width: 2em;
+            width: calc(2.5em - 1.5vh);
                     }
 
         #c { 
-            height: calc(100vh - 2em - 8px);       
-
+            height: calc(100vh - 3em - 3vh);
+            width: 2em;
+            margin-right: 1.5vh;
+            background-color: yellow;               
         }
         #f {
-            height: 2em;
+            height: calc(3em + 1.5vh);
         }
         #i {
-            width: 8em;
+            width: calc(10em - 1.5vh);
         }
-     
+        
+        #d, #e, #g {
+            width: calc(10em - 4.5em - 3vh);
+                    }
+        
+        #f, #h {
+            background-color: red;
+        }
+
         #g, #h {
-            height: calc(100vh - 4em - 12px)
+            height: calc(100vh - 6em - 6vh)
         }
         #a, #b, #c, #d, #e, #f, #g, #h, #i {
-            vertical-align: top;
-            padding: 0px;
-            margin: 0px;
-            border: 1px solid;
+            vertical-align: top;       
+            
         }
-        div {
-            background-color: springgreen;
+        div {            
             display: inline-block; 
             
         }
 
         mid div {            
             display: inline-block;            
-            background-color: blueviolet;
+            
             
         }
 
         div div {
             display: block;            
-            background-color: seagreen;
-            
+            background-color: blue;
+            margin-bottom: 1.5vh;            
         }
+
+        header div {
+            background-color: green;
+        }
+
+        footer div {
+            background-color: aquamarine;
+        }
+
+        header {margin-bottom: 1.5vh}
+        
 
     </style>
 
@@ -70,19 +92,11 @@
         <div id="a">A</div><div id="b">B</div>
     </header>
     <mid>
-        <div id="c">C</div>
-        
-        <div>
-            <div id="d">D</div>
-            <div id="e">E</div>
-            <div id="g">G</div>
-        </div>
-        <div>
-            <div id="f">F</div>
-            <div id="h">H</div>
-        </div>
-
-        
+        <div id="c">C</div><div style="margin-right: 1.5vh">
+            <div id="d">D</div><div id="e">E</div><div id="g">G</div>
+        </div><div>
+            <div id="f">F</div><div id="h">H</div>
+        </div>        
     </mid>
     <footer>
         <div id="i">I</div>
