@@ -6,77 +6,87 @@
 
     <title>Uzdavinys5</title>
     <style>
-        .a.b.d.e {
-
-            line-height: 10vw;
-        }
-
-        .a {
-            padding-right: 60vw;
-            background-color: springgreen;
-        }
-
-        .b {
-            padding-right: 20vw;
-            background-color: springgreen;
-        }
-
-        .c {
-            padding-bottom: auto;
-
-        }
-
-        .d {}
-
-        .e {}
-
-        div {
-            font-size: 7.5vw;
-            display: block;
-            position: relative;
-            border: solid 1px black;
-        }
-
-        div>div {
+        body {
+            border-collapse: collapse;
+            font-size: 10vh;
             
-            display: inline-block;
-            position: relative;
-
+        }
+        #a, #b, #d, #e, #i {
+            height: 1em;           
         }
 
-        div>div>div {
-            display: block;
-            position: relative;
+        #a {
+            width: 6em;
+                    }
+
+        #b, #f, #h {
+            width: 2em;
+                    }
+
+        #c { 
+            height: calc(100vh - 2em - 8px);       
+
+        }
+        #f {
+            height: 2em;
+        }
+        #i {
+            width: 8em;
+        }
+     
+        #g, #h {
+            height: calc(100vh - 4em - 12px)
+        }
+        #a, #b, #c, #d, #e, #f, #g, #h, #i {
+            vertical-align: top;
+            padding: 0px;
+            margin: 0px;
+            border: 1px solid;
+        }
+        div {
+            background-color: springgreen;
+            display: inline-block; 
+            
+        }
+
+        mid div {            
+            display: inline-block;            
+            background-color: blueviolet;
+            
+        }
+
+        div div {
+            display: block;            
             background-color: seagreen;
+            
         }
+
     </style>
 
 </head>
 
 <body>
-    <div>
-        <div class="a">A</div>
-        <div class="b">B</div>
-    </div>
-    <div>
+    <header>
+        <div id="a">A</div><div id="b">B</div>
+    </header>
+    <mid>
+        <div id="c">C</div>
+        
         <div>
-            <div class="c">C</div>
+            <div id="d">D</div>
+            <div id="e">E</div>
+            <div id="g">G</div>
         </div>
         <div>
-            <div class="d">D</div>
-            <div class="e">E</div>
-            <div class="g">G</div>
-        </div>
-        <div>
-            <div class="f">F</div>
-            <div class="h">H</div>
+            <div id="f">F</div>
+            <div id="h">H</div>
         </div>
 
-        <div>
-            <div class="i">I</div>
-        </div>
-    </div>
-
+        
+    </mid>
+    <footer>
+        <div id="i">I</div>
+    </footer>
 </body>
 
 </html>
